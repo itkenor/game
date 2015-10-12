@@ -1,0 +1,101 @@
+﻿#MaroGame .wrapCanvas {
+    width: 1190px;
+    min-width: 1190px;
+    height: 400px;
+    margin: 0 auto;
+    display: none;
+    position: relative;
+    overflow: hidden;
+    background-color: #1f003f;
+}
+
+#MaroGame .showCanvas {
+    display: block;
+}
+
+#MaroGame .wrapCanvas canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#MaroGame #btnPlay {
+    display: block;
+    width: 303px;
+    height: 102px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background: url(img/开始.png);
+}
+
+#MaroGame #scoreWrap {
+    width: 100px;
+    font-size: 20px;
+    color: #000;
+    position: absolute;
+    top: 16px;
+    left: 50px;
+}
+
+#MaroGame #propWrap {
+    color: #000;
+    position: absolute;
+    bottom: 0px;
+}
+
+#MaroGame    #propWrap li {
+        float: left;
+        width: 80px;
+        height: 80px;
+        background: url(img/0.png);
+    }
+
+      #MaroGame  #propWrap li.prop_fly {
+            background: url(img/player_1.png) -8px -512px;
+        }
+
+       #MaroGame #propWrap li.prop_wudi {
+            background: url(img/player_1.png) -110px -512px;
+        }
+
+       #MaroGame #propWrap li.prop_xijin {
+            background: url(img/player_1.png) -208px -512px;
+        }
+
+#MaroGame .gameWrap {
+    width: 1200px;
+    height: 400px;
+    position: absolute;
+    background: url("img/1-03.png");
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+#MaroGame .loadbg {
+    position: relative;
+    width: 294px;
+    height: 47px;
+    background: url(img/进度条1.png);
+    overflow: hidden;
+    background-position-x: -5px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+#MaroGame .loadprogress {
+    position: absolute;
+    width: 294px;
+    height: 47px;
+    background: url(img/进度条2.png);
+    left: -294px;
+}
+
+#MaroGame .loadwrap {
+    position: absolute;
+    width: 294px;
+    height: 47px;
+    background: url(img/进度条3.png);
+    background-position-x: -5px;
+}

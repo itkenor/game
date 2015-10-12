@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--HTML-->
+    <div id="MaroGame">
+        <div id="gamePrepared" class="wrapCanvas showCanvas">
+            <div style="margin: 0 auto; width: 300px; height: 140px;">
+                <a href="javascript:void(0)" id="btnPlay" class="icon"></a>
+                <div class="loadbg">
+                    <div class="loadprogress" id="lbLoad"></div>
+                    <div class="loadwrap"></div>
+                </div>
+            </div>
+        </div>
+        <div id="gameStart" class="wrapCanvas">
+            <canvas id="staticCanvas" width="1200" height="400"></canvas>
+            <canvas id="mainCanvas" width="1200" height="400"></canvas>
+            <canvas id="dynamicCanvas" width="1200" height="400"></canvas>
+            <canvas id="playerCanvas" width="1200" height="400"></canvas>
+            <div class="gameWrap">
+                <div id="scoreWrap"><span id="score"></span></div>
+                <div id="propWrap">
+                    <ul id="props">
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div id="gameEnd" class="wrapCanvas">
+            <a href="javascript:void(0)" id="btnReplay" class="icon">重新开始</a>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        上下键切换，空格为小跳，如果吃了道具，空格键为放技能，星星是无敌，翅膀是大跳
+    </div>
+    <!--引用-->
+    <script src="js/index_20141029.js?120141"></script>
+    <link href="css/css.css" type="text/css" rel="stylesheet" />
+</body>
+
+</html>
